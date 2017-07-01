@@ -287,6 +287,6 @@ $filename .= ".txt";
 open(my $output_file, '>', $filename);
 print $output_file "$notesContained";
 close $output_file;
-print "notemap: Wrote note mapping to $filename\n";
+print "notemap: Wrote note-mapping to $filename\n";
 
 # print $notesContained;
